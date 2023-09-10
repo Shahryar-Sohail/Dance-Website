@@ -1,0 +1,13 @@
+$ touch .gitignore
+$ git init
+$ git add .
+$ git commit -m "Initial commit"
+$ git status
+$ git remote add origin git@github.com:Shahryar-Sohail/Dance-Website.git
+$ ssh-keygen -t ed25519 -C "shahryar.ch123@gmail.com"
+$ cat /c/Users/Laptop\ Wala/.ssh/id_ed25519.pub
+
+Then you will get the ssh key 
+Paste it on github ->Profile->Setting->SSh keys-> Add New Key
+
+$ git push origin master
